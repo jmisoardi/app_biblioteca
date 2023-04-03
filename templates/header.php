@@ -1,7 +1,7 @@
 
 
 <!-- Se crea la URL base para que no se repita la redireccion  -->
-<?php $url_base="http://localhost/app/"; ?>
+<?php $url_base = "http://localhost/app_biblioteca/"; ?>
 
 <!doctype html>
 <html lang="en">
@@ -33,7 +33,7 @@
                 <a class="nav-link" href=" <?php echo $url_base; ?>secciones/libros/">Libros</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="secciones/usuario/">Usuario</a>
+                <a class="nav-link" href="<?php echo $url_base; ?>secciones/usuario/">Usuario</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Cerrar Session</a>

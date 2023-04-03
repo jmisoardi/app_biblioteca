@@ -1,5 +1,5 @@
 <?php include("../../templates/header.php"); ?>
 
-Usuarios del sistema
+Listar Usuarios
 
 <?php include("../../templates/footer.php"); ?>
