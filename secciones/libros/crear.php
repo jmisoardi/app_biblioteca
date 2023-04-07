@@ -10,9 +10,9 @@
         <form action="" method="post">
 
             <div class="mb-3">
-                <label  for="Fecha_ingr" class="form-label">Fecha Ingreso</label>
+                <label  for="fecha_ingreso" class="form-label">Fecha Ingreso</label>
                 <input  type="datetime-local"
-                        class="form-control" name="Fecha_ingr" id="Fecha_ingr" aria-describedby="helpId" placeholder="">
+                        class="form-control" name="fecha_ingreso" id="fecha_ingreso" aria-describedby="helpId" placeholder="">
             </div>
             <div class="mb-3">
                 <label  for="autor" class="form-label">Autor</label>
@@ -45,11 +45,6 @@
                         class="form-control" name="editorial" id="editorial" aria-describedby="helpId" placeholder="Editorial">              
             </div>
             <div class="mb-3">
-                <label  for="year" class="form-label">Año</label>
-                <input  type="date"
-                        class="form-control" name="year" id="year" aria-describedby="helpId" placeholder="">              
-            </div>
-            <div class="mb-3">
                 <label  for="pagina" class="form-label">Paginas</label>
                 <input  type="number"
                         class="form-control" name="pagina" id="pagina" aria-describedby="helpId" placeholder="Paginas">              
@@ -70,8 +65,8 @@
                         class="form-control" name="tema" id="tema" aria-describedby="helpId" placeholder="Tema">              
             </div>
             <div class="mb-3">
-                <label for="idprocedencia" class="form-label">Procedencia</label>
-                <select class="form-select form-select-lg" name="idprocedencia" id="idprocedencia">
+                <label for="id_procedencia" class="form-label">Procedencia</label>
+                <select class="form-select form-select-ms" name="id_procedencia" id="id_procedencia">
                     <option selected>Seleccionar</option>
                     <option value="compra">Compra</option>
                     <option value="donacion">Donación</option>
@@ -84,19 +79,15 @@
                         class="form-control" name="cdu" id="cdu" aria-describedby="helpId" placeholder="CDU">
             </div>
             <div class="mb-3">
-                <label  for="inventario" class="form-label">Nº Inventario</label>
+                <label  for="n_inventario" class="form-label">Nº Inventario</label>
                 <input  type="text"
-                        class="form-control" name="inventario" id="inventario" aria-describedby="helpId" placeholder="Nº Inventario">             
+                        class="form-control" name="n_inventario" id="n_inventario" aria-describedby="helpId" placeholder="Nº Inventario">             
             </div>
             <div class="mb-3">
                 <label  for="cantidad" class="form-label">Cantidad</label>
                 <input  type="text"
                         class="form-control" name="cantidad" id="cantidad" aria-describedby="helpId" placeholder="Cantidad">                
             </div>
-
-
-
-
 
         </form>
 
