@@ -89,6 +89,8 @@
                         class="form-control" name="cantidad" id="cantidad" aria-describedby="helpId" placeholder="Cantidad">                
             </div>
 
+            <button type="submit" class="btn btn-success">Agregar registro</button>
+            <a name="" id="" class="btn btn-primary" href="index.php" role="button">Cancelar</a>
         </form>
 
     </div>
